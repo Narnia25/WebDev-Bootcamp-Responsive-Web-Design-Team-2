@@ -1,0 +1,38 @@
+Coffee Shop Name
+
+Customer Satisfaction Survey
+
+Your name (textbox, e.g: Abraham Lincoln)
+
+Your email (textbox, format: email, e.g: youremail@email.com)
+
+Your phone (textbox, format: numbers only, e.g: 081234567)
+
+What’s your favorite drink? (checkbox)
+Drip coffee
+Cold brew
+Espresso
+Americano
+Macchiato
+Cappuccino
+Latte
+Mocha
+
+What’s your favorite food? (checkbox)
+Croissant
+Muffin
+Sandwich
+Vegetarian wrap
+
+How would you describe the atmosphere? (dropdown)
+Relaxing, Lively, Quiet, Loud
+
+How satisfied were you overall with your experience? (radio button)
+Very satisfied, Satisfied, Neutral, Dissatisfied, Very dissatisfied
+
+How likely are you to recommend our coffee shop to a friend or colleague? (radio button or slider)
+1 (Absolute worst, will not recommend) to 5 (Absolutely perfect, definitely will recommend)
+
+Is there anything else you would like to share with us? (textarea)
+
+Submit (submit button)

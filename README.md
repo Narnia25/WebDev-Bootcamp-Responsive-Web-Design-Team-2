@@ -1,3 +1,13 @@
+# Team 2
+
+Team members:
+- Ariffal
+- Ghina
+- Olivia
+- Sari
+
+Project theme: Coffee Shop (see ProjectBrief.md)
+
 Homework di Freecodecamp:
 - Survey form (due: 12 Oktober 2024)
 - Tribute page (due: 12 Oktober 2024)
