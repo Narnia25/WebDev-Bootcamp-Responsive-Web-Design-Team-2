@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Coffee Shop Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner">
+        <div>
+          <img src="" alt="Coffee and pastry"/>
+          <h2>Coffee Shop Name</h2>
+        </div>
+      </div>
+
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name"/>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Your email</label>
+          <input type="email" id="email" name="email"/>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Your phone</label>
+          <input type="tel" id="phone" name="phone"/>
+        </div>
+
+        <div class="form-group">
+          <label>What's your favorite drink?</label><br/>
+          <input type="checkbox" name="drink" value="drip coffee"/>  
+          <input type="checkbox" name="drink" value="macchiato"/> Macchiato
+          <input type="checkbox" name="drink" value="cold brew"/> Cold brew
+          <input type="checkbox" name="drink" value="cappuccino"/> Cappuccino
+          <input type="checkbox" name="drink" value="espresso"/> Espresso
+          <input type="checkbox" name="drink" value="latte"/> Latte
+          <input type="checkbox" name="drink" value="americano"/> Americano
+          <input type="checkbox" name="drink" value="mocha"/> Mocha
+        </div>
+
+        <div class="form-group">
+          <label>What's your favorite food?</label><br/>
+          <input type="checkbox" name="food" value="croissant"/> Croissant
+          <input type="checkbox" name="food" value="sandwich"/> Sandwich
+          <input type="checkbox" name="food" value="muffin"/> Muffin
+          <input type="checkbox" name="food" value="vegetarian wrap"/>Vegetarian wrap
+        </div>
+
+        <div class="form-group">
+          <label for="atmosphere">How would you describe the atmosphere?</label>
+          <select id="atmosphere" name="atmosphere">
+            <option value="relaxing">Relaxing</option>
+            <option value="lively">Lively</option>
+            <option value="quiet">Quiet</option>
+            <option value="loud">Loud</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>How satisfied were you overall with your experience?</label>
+          <input type="radio" name="satisfaction" value="very satisfied"/> Very satisfied
+          <input type="radio" name="satisfaction" value="satisfied"/> Satisfied
+          <input type="radio" name="satisfaction" value="neutral"/> Neutral
+          <input type="radio" name="satisfaction" value="dissatisfied"/>Dissatisfied
+          <input type="radio" name="satisfaction" value="very dissatisfied"/>Very dissatisfied
+        </div>
+
+        <div class="form-group">
+          <label>How likely are you to recommend our coffee shop to a friend or colleague?</label>
+          <input type="radio" name="recommendation" value="1"/> 1
+          <input type="radio" name="recommendation" value="2"/> 2
+          <input type="radio" name="recommendation" value="3"/> 3
+          <input type="radio" name="recommendation" value="4"/> 4
+          <input type="radio" name="recommendation" value="5"/> 5
+        </div>
+
+        <div class="form-group">
+          <label for="comments">Is there anything else you would like to share with us?</label>
+          <textarea id="comments" name="comments"></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
