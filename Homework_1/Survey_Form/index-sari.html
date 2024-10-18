@@ -21,24 +21,26 @@
                 <div class="banner">
                     <div>
                         <img src="mockup/headerimage1.jpg" alt="Coffee and pastry" height="200px" />
-                        <h2>Coffee Shop Name</h2>
+                        <h1 id="title">Customer Satisfaction Survey</h1>
+                        <p id="description">Please fill in this survey, thank you!</p>
                     </div>
                 </div>
 
-                <form action="#" method="post" class="pure-form pure-form-stacked">
+                <form id="survey-form" action="#" method="post" class="pure-form pure-form-stacked">
                     <div class="form-group">
-                        <label for="name">Your name</label>
-                        <input type="text" id="name" name="name" />
+                        <label id="name-label" for="name">Your name *)</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required="true" />
                     </div>
 
                     <div class="form-group">
-                        <label for="email">Your email</label>
-                        <input type="email" id="email" name="email" />
+                        <label id="email-label" for="email">Your email *)</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required="true" />
                     </div>
 
                     <div class="form-group">
-                        <label for="phone">Your phone</label>
-                        <input type="tel" id="phone" name="phone" />
+                        <label id="number-label" for="phone">Your phone</label>
+                        <input type="number" id="number" name="phone" placeholder="Numbers only, eg. 08123456789"
+                            min="0" max="999999999999" />
                     </div>
 
                     <div class="form-group">
@@ -71,7 +73,7 @@
 
                     <div class="form-group">
                         <label for="atmosphere">How would you describe the atmosphere?</label>
-                        <select id="atmosphere" name="atmosphere">
+                        <select id="dropdown" name="atmosphere">
                             <option value="relaxing">Relaxing</option>
                             <option value="lively">Lively</option>
                             <option value="quiet">Quiet</option>
@@ -87,10 +89,10 @@
                             Satisfied</label>
                         <label class="pure-radio"><input type="radio" name="satisfaction" value="neutral" />
                             Neutral</label>
-                        <label class="pure-radio"><input type="radio" name="satisfaction"
-                                value="dissatisfied" />Dissatisfied</label>
-                        <label class="pure-radio"><input type="radio" name="satisfaction"
-                                value="very dissatisfied" />Very dissatisfied</label>
+                        <label class="pure-radio"><input type="radio" name="satisfaction" value="dissatisfied" />
+                            Dissatisfied</label>
+                        <label class="pure-radio"><input type="radio" name="satisfaction" value="very dissatisfied" />
+                            Very dissatisfied</label>
                     </div>
 
                     <div class="form-group">
@@ -107,7 +109,7 @@
                         <textarea id="comments" name="comments"></textarea>
                     </div>
 
-                    <button type="submit" class="submit-btn pure-button">Submit</button>
+                    <button id="submit" type="submit" class="submit-btn pure-button">Submit</button>
                 </form>
             </div>
         </div>
