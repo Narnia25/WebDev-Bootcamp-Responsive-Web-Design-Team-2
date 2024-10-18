@@ -1,0 +1,60 @@
+/* Coffee Shop Website CSS and Color Pallette */
+
+body {
+    background-color: beige;
+    color: #333333;
+}
+
+a {
+    color: brown;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: tan;
+}
+
+header {
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px;
+    background-color: khaki;
+}
+
+code {
+    background-color: tan;
+    padding: 10px;
+}
+
+blockquote {
+    padding: 10px;
+}
+
+#websiteheader {
+    font-size: xx-large;
+    color: khaki;
+    background-color: brown;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+/* Technical Guide CSS */
+
+section.main-section article {
+    padding: 10px;
+}
+
+a.nav-link {
+    padding: 20px;
+}
+
+a.nav-link:hover {
+    background-color: brown;
+
+}
