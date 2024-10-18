@@ -1,3 +1,5 @@
+/* Coffee Shop Website CSS and Color Pallette */
+
 body {
     background-color: beige;
     color: #333333;
@@ -22,8 +24,8 @@ header {
     background-color: khaki;
 }
 
-main {
-    padding: 10px;
+img {
+    width: 100%;
 }
 
 code {
@@ -35,9 +37,24 @@ blockquote {
     padding: 10px;
 }
 
-#judulwebsite {
+#websiteheader {
     font-size: xx-large;
     color: khaki;
     background-color: brown;
     padding: 10px;
+}
+
+/* Technical Guide CSS */
+
+section.main-section article {
+    padding: 10px;
+}
+
+a.nav-link {
+    padding: 20px;
+}
+
+a.nav-link:hover {
+    background-color: brown;
+
 }
