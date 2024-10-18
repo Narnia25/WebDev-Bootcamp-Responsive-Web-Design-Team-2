@@ -24,10 +24,6 @@ header {
     background-color: khaki;
 }
 
-img {
-    width: 100%;
-}
-
 code {
     background-color: tan;
     padding: 10px;
@@ -44,6 +40,12 @@ blockquote {
     background-color: brown;
     padding: 10px;
 }
+
+img {
+    width: 100%;
+}
+
+/* Tribute CSS */
 
 main {
     padding: 10px;

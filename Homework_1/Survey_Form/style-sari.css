@@ -40,21 +40,13 @@ blockquote {
     padding: 10px;
 }
 
-img {
-    width: 100%;
-}
+/* Survey CSS */
 
-/* Technical Guide CSS */
-
-section.main-section article {
+.container {
     padding: 10px;
+
 }
 
-a.nav-link {
-    padding: 20px;
-}
-
-a.nav-link:hover {
-    background-color: brown;
-
+.submit-btn {
+    background-color: tan;
 }
