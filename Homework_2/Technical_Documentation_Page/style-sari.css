@@ -1,0 +1,43 @@
+body {
+    background-color: beige;
+    color: #333333;
+}
+
+a {
+    color: brown;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: tan;
+}
+
+header {
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px;
+    background-color: khaki;
+}
+
+main {
+    padding: 10px;
+}
+
+code {
+    background-color: tan;
+    padding: 10px;
+}
+
+blockquote {
+    padding: 10px;
+}
+
+#judulwebsite {
+    font-size: xx-large;
+    color: khaki;
+    background-color: brown;
+    padding: 10px;
+}
