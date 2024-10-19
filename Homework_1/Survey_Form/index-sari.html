@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Survey</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css" />
+    <link rel="stylesheet" href="style-sari.css" />
+</head>
+
+<body>
+
+    <div id="websiteheader">&#9749; Express Beans</div>
+    <div id="contentgrid" class="pure-g">
+        <div id="centergrid" class="pure-u-1">
+
+            <div class="container">
+                <div class="banner">
+                    <div>
+                        <img src="mockup/headerimage1.jpg" alt="Coffee and pastry" height="200px" />
+                        <h1 id="title">Customer Satisfaction Survey</h1>
+                        <p id="description">Please fill in this survey, thank you!</p>
+                    </div>
+                </div>
+
+                <form id="survey-form" action="#" method="post" class="pure-form pure-form-stacked">
+                    <div class="form-group">
+                        <label id="name-label" for="name">Your name *)</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required="true" />
+                    </div>
+
+                    <div class="form-group">
+                        <label id="email-label" for="email">Your email *)</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required="true" />
+                    </div>
+
+                    <div class="form-group">
+                        <label id="number-label" for="phone">Your phone</label>
+                        <input type="number" id="number" name="phone" placeholder="Numbers only, eg. 08123456789"
+                            min="0" max="999999999999" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>What's your favorite drink?</label><br />
+                        <label class="pure-checkbox"><input type="checkbox" name="drink" value="drip coffee" /> Drip
+                            Coffee</label>
+                        <label class="pure-checkbox"><input type="checkbox" name="drink" value="macchiato" />
+                            Macchiato</label>
+                        <label class="pure-checkbox"><input type="checkbox" name="drink" value="cold brew" />
+                            Cold brew</label>
+                        <label class="pure-checkbox"><input type="checkbox" name="drink" value="cappuccino" />
+                            Cappuccino</label>
+                        <label class="pure-checkbox"><input type="checkbox" name="drink" value="espresso" />
+                            Espresso</label>
+                        <label class="pure-checkbox"><input type="checkbox" name="drink" value="latte" />
+                            Latte</label>
+                        <label class="pure-checkbox"><input type="checkbox" name="drink" value="americano" />
+                            Americano</label>
+                        <label class="pure-checkbox"><input type="checkbox" name="drink" value="mocha" />
+                            Mocha</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label>What's your favorite food?</label><br />
+                        <input type="checkbox" name="food" value="croissant" /> Croissant
+                        <input type="checkbox" name="food" value="sandwich" /> Sandwich
+                        <input type="checkbox" name="food" value="muffin" /> Muffin
+                        <input type="checkbox" name="food" value="vegetarian wrap" />Vegetarian wrap
+                    </div>
+
+                    <div class="form-group">
+                        <label for="atmosphere">How would you describe the atmosphere?</label>
+                        <select id="dropdown" name="atmosphere">
+                            <option value="relaxing">Relaxing</option>
+                            <option value="lively">Lively</option>
+                            <option value="quiet">Quiet</option>
+                            <option value="loud">Loud</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>How satisfied were you overall with your experience?</label>
+                        <label class="pure-radio"><input type="radio" name="satisfaction" value="very satisfied" /> Very
+                            satisfied</label>
+                        <label class="pure-radio"><input type="radio" name="satisfaction" value="satisfied" />
+                            Satisfied</label>
+                        <label class="pure-radio"><input type="radio" name="satisfaction" value="neutral" />
+                            Neutral</label>
+                        <label class="pure-radio"><input type="radio" name="satisfaction" value="dissatisfied" />
+                            Dissatisfied</label>
+                        <label class="pure-radio"><input type="radio" name="satisfaction" value="very dissatisfied" />
+                            Very dissatisfied</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label>How likely are you to recommend our coffee shop to a friend or colleague?</label>
+                        <input type="radio" name="recommendation" value="1" /> 1
+                        <input type="radio" name="recommendation" value="2" /> 2
+                        <input type="radio" name="recommendation" value="3" /> 3
+                        <input type="radio" name="recommendation" value="4" /> 4
+                        <input type="radio" name="recommendation" value="5" /> 5
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comments">Is there anything else you would like to share with us?</label>
+                        <textarea id="comments" name="comments"></textarea>
+                    </div>
+
+                    <button id="submit" type="submit" class="submit-btn pure-button">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
