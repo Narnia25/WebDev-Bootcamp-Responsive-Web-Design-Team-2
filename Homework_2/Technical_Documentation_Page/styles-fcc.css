@@ -50,7 +50,18 @@ section.main-section article {
     padding: 10px;
 }
 
+#navbar ul {
+    display: block;
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margins */
+}
+
 a.nav-link {
+    display: block;
     padding: 20px;
 }
 
@@ -58,3 +69,5 @@ a.nav-link:hover {
     background-color: brown;
 
 }
+
+@media screen and (min-width: 480px) {}
