@@ -60,6 +60,13 @@ section.main-section article {
     /* Remove margins */
 }
 
+#navbar {
+    height: 400px; /* Set a fixed height for the navbar */
+    overflow-y: auto; /* Enable vertical scrolling */
+    background-color: rgb(238, 224, 98); /* match the header background */
+}
+
+
 a.nav-link {
     display: block;
     padding: 20px;
