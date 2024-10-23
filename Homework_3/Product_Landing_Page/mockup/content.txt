@@ -1,3 +1,8 @@
+Untuk icons, bagi yang ga sempet nyari, fitur ganjil pakai fa-mug-hot, fitur genap pakai fa-seedling
+Kalau mau nyari: https://fontawesome.com/search?o=r&m=free&s=solid
+
+============================
+
 BREWING EQUIPTMENT PRODUCT LANDING PAGE - Ariffal
 
 # Page Header:
